@@ -34,11 +34,11 @@ class car_inventory(models.Model):
     engine_type=models.CharField(max_length=20)
     manfg_date=models.DateField()
 class car_admin(admin.ModelAdmin):
-    list_display=('car_brand','car_model','mileage','engine_type','manfg_date')
-
+    list_display=('car_brand','car_model','mileage','engine_type','mafg_date')
 ~~~
+    
 # OUTPUT
-ORM/Screenshot (2).png
+![alt text](<Screenshot (2).png>)
 
 
 # RESULT
